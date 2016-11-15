@@ -43,7 +43,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(280, 442);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(68, 31);
             this.button1.TabIndex = 3;
@@ -54,7 +54,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(42, 102);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(98, 21);
             this.textBox1.TabIndex = 0;
@@ -119,7 +119,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(42, 246);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(110, 34);
             this.button2.TabIndex = 1;
@@ -130,7 +130,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(217, 246);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(98, 34);
             this.button3.TabIndex = 2;
@@ -157,8 +157,9 @@
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
+            this.Text = "Molles Moms";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -74,6 +74,10 @@ namespace Molles_Moms
             if (char.IsNumber(e.KeyChar) || e.KeyChar == ',' || e.KeyChar == 8)
             {
             }
+            else if(e.KeyChar == 27)
+            {
+                this.Close();
+            }
             else
             {
                 e.Handled = e.KeyChar != (char)Keys.Back;
